@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="trafl">Ətraflı</string>
+    <string name="son_x_b_rl_r">- Son xəbərlər</string>
+    <string name="Ətraflı">Ətraflı</string>
+</resources>

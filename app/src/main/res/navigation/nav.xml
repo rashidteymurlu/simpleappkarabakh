@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/fragmentAnaSehife2">
+    <fragment
+        android:id="@+id/fragmentAnaSehife2"
+        android:name="com.example.myapplication.FragmentAnaSehife"
+        android:label="FragmentAnaSehife"
+        tools:layout="@layout/fragment_ana_sehife">
+
+        <action
+            android:id="@+id/action_fragmentAnaSehife2_to_mainActivity22"
+            app:destination="@id/mainActivity22" />
+        <action
+            android:id="@+id/action_fragmentAnaSehife2_to_mainActivity3"
+            app:destination="@id/mainActivity3" />
+        <action
+            android:id="@+id/action_fragmentAnaSehife2_to_mainActivity4"
+            app:destination="@id/mainActivity4" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentRayonlar"
+        android:name="com.example.myapplication.FragmentRayonlar"
+        android:label="fragment_rayonlar"
+        tools:layout="@layout/fragment_rayonlar" />
+    <activity
+        android:id="@+id/mainActivity22"
+        android:name="com.example.myapplication.MainActivity2"
+        android:label="fragment_xeberler1"
+        tools:layout="@layout/fragment_xeberler1" />
+    <activity
+        android:id="@+id/mainActivity3"
+        android:name="com.example.myapplication.MainActivity3"
+        android:label="fragment_xeberler2"
+        tools:layout="@layout/fragment_xeberler2" />
+    <activity
+        android:id="@+id/mainActivity4"
+        android:name="com.example.myapplication.MainActivity4"
+        android:label="activity_main4"
+        tools:layout="@layout/activity_main4" />
+</navigation>
